@@ -8,7 +8,7 @@ end
 def summon_captain_planet(planeteer_calls)
   array = []
   planeteer_calls.collect do |element|
-   array << "#{element.titlecase}!"
+   array << "#{element.capitilization}!"
 end
 array
 end
