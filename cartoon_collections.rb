@@ -14,12 +14,7 @@ array
 end
 
 def long_planeteer_calls(array)
-array.any?{|i| array.length > 4}
-if i == false
-false
-else 
-  true
-end
+
 end
 
 def find_the_cheese# code an argument here
