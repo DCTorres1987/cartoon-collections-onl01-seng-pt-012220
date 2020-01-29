@@ -24,5 +24,5 @@ def find_the_cheese(array)
   new_array = []
   cheese_types = ["cheddar", "gouda", "camembert"]
   new_array << array & cheese_types
-  new_array
+  new_array.join
 end
