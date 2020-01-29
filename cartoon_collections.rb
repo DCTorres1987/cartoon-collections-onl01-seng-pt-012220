@@ -20,8 +20,6 @@ end
 end
 
 def find_the_cheese(array)
-  # the array below is here to help
-  new_array = []
   cheese_types = ["cheddar", "gouda", "camembert"]
   new_array << array & cheese_types
   new_array.join
